@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+.DS_Store
+# generated outputs: keep these out of the repo
+*.npz
+*.npy
+*.gif
+*.png

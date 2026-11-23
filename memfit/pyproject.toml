@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memfit"
+version = "0.1.0"
+description = "Predict, simulate, detect and animate the electromagnetic memory effect"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "scipy>=1.8", "matplotlib>=3.6", "pillow>=9"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+memfit = "memfit.cli:main"
+
+[tool.setuptools]
+packages = ["memfit"]
