@@ -11,3 +11,4 @@ dist/
 *.npy
 *.gif
 *.png
+memfit_demo/
